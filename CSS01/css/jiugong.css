@@ -15,10 +15,11 @@
 }
 
 .wrap>div {
-	width: 31%;
-	padding-bottom: 31%;
+	width: 30%;
+	padding-bottom: 30%;
 	background-color: orange;
 	border-radius: 3%;
+	border:0;
 	float: left;
 	margin: 1%;
 }
