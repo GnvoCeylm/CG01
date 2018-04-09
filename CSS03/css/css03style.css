@@ -1,0 +1,104 @@
+html{
+	font-size: 62.5%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #eff0f4;
+}
+
+.header{
+	background-color: #5fc0cd;
+	height: 4.8rem;
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	font-size: 1.7rem;
+	color: white;
+	font-family: "微软雅黑";
+	align-items: center;
+}
+
+.header_register{
+	padding-left: 1rem;
+}
+
+.header_close{
+	padding-right: 1rem;
+}
+
+.input{
+	height: 12rem;
+	width: 100%;
+}
+
+.phone_num {
+	width: 100%;
+	height: 5rem;
+	margin-top: 1rem;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.phone_num img{
+	width: 8rem;
+	height: 5rem;
+	float: left;
+}
+
+.phone_num input{
+	width: 100%;
+	height: 5rem;
+	border: 0;
+	outline: none;
+}
+
+.psd{
+	width: 100%;
+	height: 5rem;
+	margin: 1rem 0;
+	border: 0;
+	outline: none;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.psd img{
+	width: 8rem;
+	height: 5rem;
+	float: left;
+}
+
+.psd input{
+	width: 100%;
+	height: 5rem;
+	border: 0;
+	outline: none;
+}
+
+.land{
+	background-color: #5fc0cd;
+	height: 5.3rem;
+	width: 100%;
+	font-size: 1.7rem;
+	color: white;
+	font-family: "微软雅黑";
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.forget{
+	font-size: 1.2rem;
+	font-family: "微软雅黑";
+	color: #5fc0cd;
+	position: absolute;
+	top: 24rem;
+	right: 1.5rem;
+}
